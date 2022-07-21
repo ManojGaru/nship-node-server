@@ -17,7 +17,7 @@ const razorpayInstance = new Razorpay({
 });
 
 const app = express();
-const PORT = process.env.port || '5000';
+const PORT = process.env.port || '8080';
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors({origin: 'http://localhost:3000'}));
