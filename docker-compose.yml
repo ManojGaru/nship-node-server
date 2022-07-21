@@ -1,0 +1,12 @@
+version: "3"
+services":
+  nship-server
+  build:
+    context:.
+    dockerfile: .Dockerfile
+  ports:
+    - "5000:5000"
+  environment:
+    - port=5000
+    - key_id=rzp_test_UZKZM6ZVtATgfZ
+    - key_secret=OrBeatb9NdILOgBCogOS1LRG
